@@ -1,0 +1,261 @@
+@charset "utf-8";
+/*☰*/
+@font-face {
+    font-family: 'louisbold';
+    src: url('fonts/louis-bold-webfont.woff2') format('woff2'),
+         url('fonts/louis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'louis_regularregular';
+    src: url('fonts/louisregular-webfont.woff2') format('woff2'),
+         url('fonts/louisregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background: #fff;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #7b7c80;
+}
+img {
+    max-width: 100%;
+    border: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cont {
+    max-width: 625px;
+    margin: 0 auto;
+}
+.col2 {
+    overflow: hidden;
+    height: 100%;
+}
+.col2 > div {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.bold {
+    font-weight: bold;
+}
+.centrar{
+    text-align: center;
+}
+.justificar {
+    text-align: justify;
+}
+.derecha{
+    text-align: right;
+}
+.izquierda{
+    text-align: left;
+}
+.italica {
+    font-style: italic;
+}
+.rojo{
+    color: #cf4a61;
+}
+.bckrojo{
+    background: #cf4a61;
+}
+.clear{
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-weight: lighter;
+}
+.vimg{
+    position: relative;
+    height: 100%;
+}
+.vimg img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.h2{
+    font-size: 27px;
+}
+.imgCenter img{
+    margin: 0 auto;
+}
+p {
+    line-height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.under{
+    text-decoration: underline;
+}
+/*==========================================================================
+HOME
+==========================================================================*/
+.header {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.encabezado {
+    margin-top: 10px;
+}
+.encabezado h1 {
+    color: #000;
+    display: inline-block;
+    font-family: "louisbold";
+    font-style: italic;
+    line-height: 100%;
+    font-size: 18px;
+}
+.encabezado.h1form h1{
+    color: #4e5256;
+}
+.encabezado > img {
+    float: right;
+    vertical-align: top;
+}
+/*==========================================================================
+CONTENIDO
+==========================================================================*/
+.grid {
+    clear: both;
+    margin-top: 40px;
+}
+.grid ul {
+    text-align: center;
+}
+.grid li {
+    display: inline-block;
+    margin: 0 1% 10px;
+    min-width: 193px;
+    vertical-align: top;
+    width: 30%;
+}
+.gridC {
+    background: #f6f6f6 none repeat scroll 0 0;
+    height: 86px;
+    width: 198px;
+}
+.gridC > img {
+    margin-top: 10px;
+}
+.gridC p {
+    color: #4e5256;
+    font-family: "louis_regularregular";
+    font-size: 8px;
+    line-height: 100%;
+    margin: 0;
+}
+.gridC p span{
+    color: #f7bf2e;
+}
+.gridC.paso6 {
+    background: transparent none repeat scroll 0 0;
+}
+.gridC.paso6  img {
+    margin-top: 20px;
+}
+.grid h3{
+    font-family: "Arial";
+    font-size: 13px;
+    color: #4e5256;
+    width: 70%;
+    margin: 20px auto 30px 0;
+    font-weight: bold;
+}
+label {
+    color: #4e5256;
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 9px;
+    font-weight: bold;
+    width: 40%;
+}
+input {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.fecha {
+    margin-right: 4%;
+    width: 12.1%;
+}
+.mas{
+    color: #4e5256;
+    font-size: 13px;
+    margin: 20px auto 30px 0;
+}
+/*==========================================================================
+FOOTER
+==========================================================================*/
+.footer {
+    margin: 10px auto 40px;
+}
+.footer .col2 > div:first-child {
+    min-width: 200px;
+    width: 29%;
+}
+.footer .col2 > div:last-child {
+    width: 67%;
+    font-size: 8px;
+}
+@media only screen and (max-width : 600px){ 
+    .footer .col2 > div:first-child {
+        text-align: center;
+        width: 100%;
+    }
+    .footer .col2 > div:last-child {
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width : 480px){ 
+    .grid .col2 > div {
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .grid h3 {
+        margin: 20px auto;
+    }
+    .cols > div {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
